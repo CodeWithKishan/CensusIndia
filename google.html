@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <base href="https://learndigital.withgoogle.com/digitalunlocked/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimal-ui,initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="4054B2">
+    <title>Courses List - Google Digital Unlocked</title>
+    <link href="/static/css/miyagi-core.css?cb=019468ba9318b375bac1ea0ea479ec26" media="screen" rel="stylesheet" />
+    <style media="screen" type="text/css">
+        /*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+        @font-face {
+            font-family: 'Google Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Google Sans Regular'), local('GoogleSans-Regular'), url(https://fonts.gstatic.com/s/googlesans/v16/4UaGrENHsxJlGDuGo1OIlI3J.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Google Sans';
+            font-style: normal;
+            font-weight: 500;
+            src: local('Google Sans Medium'), local('GoogleSans-Medium'), url(https://fonts.gstatic.com/s/googlesans/v16/4UabrENHsxJlGDuGo1OIlLU94bt0.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Google Sans Display';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Google Sans Display Regular'), local('GoogleSansDisplay-Regular'), url(https://fonts.gstatic.com/s/googlesansdisplay/v14/ea8FacM9Wef3EJPWRrHjgE4B6CnlZxHVPvk.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 100;
+            src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 100;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWWaA.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 300;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSWaA.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISWaA.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4OWaA.ttf) format('truetype');
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+        }
+    </style>
+    <style media="screen" type="text/css">
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format('truetype');
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="subpage course-list" ng-app="CourseList">
+        <!-- GTM Analytics. -->
+        <header show-burger-nav="showBurgerNav" aria-hidden="{[ ariaHiddenBehindNav ]}"
+            tabindex="{[ tabIndexBehindNav ]}" class="header" window-resize-class
+            ng-controller="HeaderController as ctrl" role="presentation"
+            ng-class="{'header--nav-open': navIsOpen, 'header--burger-nav': showBurgerNav, 'header--has-loaded': headerHasLoaded }"
+            swipe-threshold="120" swipe-left="ctrl.closeNav" ng-init="headerHasLoaded = true" hide-on-scroll>
+            <button tabindex="{[ tabIndexBehindNav ]}" aria-hidden="{[ ariaHiddenBehindNav ]}" class="header__open-nav"
+                role="menuitem" ng-click="ctrl.toggleNav()"><i class="material-icons">menu</i></button>
+            <div aria-hidden="{[ ariaHiddenBehindNav ]}" tabindex="{[ tabIndexBehindNav ]}" class="header__logo">
+                <a href="" class="header__logo__link" tabindex="{[ tabIndexBehindNav ]}"
+                    aria-hidden="{[ ariaHiddenBehindNav ]}">
+                    <img class="header__logo__img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                        alt="Home - Digital Unlocked" aria-label="Home - Digital Unlocked" />
+                </a>
+            </div>
+            <nav class="header__nav nav" role="navigation" header-nav
+                active="" show-burger-nav="showBurgerNav"
+                aria-hidden="{[ ariaHiddenBurgerNav ]}" tabindex="{[ tabIndexBurgerNav ]}">
+                <a href="" class="nav__logo"
+                    aria-hidden="{[ ariaHiddenBurgerNav ]}" tabindex="{[ tabIndexBurgerNav ]}">
+                    <img class="nav__logo__img" src="https://www.worldometers.info/img/worldometers-logo.gif"
+                        alt="Home - Digital Unlocked" aria-label="Home - Digital Unlocked" />
+                </a>
+                <div class="nav__wrapper" fit-nav-items on-fit-items="ctrl.setActive" more-items="moreItems">
+
+                    <div class="nav__item" data-href="http://127.0.0.1:5500/google.html"
+                        ng-class="{'nav__item--active': active == 'http://127.0.0.1:5500/google.html'}"
+                        role="presentation" tabindex="-1"
+                        ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_self')">
+                        <a id="online_courses" href="http://127.0.0.1:5500/google.html"
+                            data-gtm-tag="Menu - Online Courses" tabindex="{[ tabIndexBurgerNav ]}" btn-ripple
+                            class="nav__link " target="_self">
+                            <div>Online Courses</div>
+                        </a>
+                    </div>
+
+                    <div class="nav__item" data-href="http://127.0.0.1:5500/google.html"
+                        ng-class="{'nav__item--active': active == 'http://127.0.0.1:5500/google.html'}"
+                        role="presentation" tabindex="-1"
+                        ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_self')">
+                        <a id="certification" href="http://127.0.0.1:5500/google.html"
+                            data-gtm-tag="Menu - Certification" tabindex="{[ tabIndexBurgerNav ]}" btn-ripple
+                            class="nav__link " target="_self">
+                            <div>Certification</div>
+                        </a>
+                    </div>
+
+                    <div class="nav__item" data-href="http://127.0.0.1:5500/google.html" ng-class="{'nav__item--active': active == 'http://127.0.0.1:5500/google.html'}"
+                        role="presentation" tabindex="-1" ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_self')">
+                        <a id="f2f" href="http://127.0.0.1:5500/google.html" data-gtm-tag="Menu - Offline Trainings" tabindex="{[ tabIndexBurgerNav ]}"
+                            btn-ripple class="nav__link " target="_self">
+                            <div>Offline Trainings</div>
+                        </a>
+                    </div>
+
+                    <div class="nav__item" data-href="http://127.0.0.1:5500/google.html" ng-class="{'nav__item--active': active == 'http://127.0.0.1:5500/google.html'}"
+                        role="presentation" tabindex="-1" ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_self')">
+                        <a id="remote_work" href="http://127.0.0.1:5500/google.html" data-gtm-tag="Menu - Remote Work" tabindex="{[ tabIndexBurgerNav ]}"
+                            btn-ripple class="nav__link " target="_self">
+                            <div>Remote Work</div>
+                        </a>
+                    </div>
+
+                    <div class="nav__item" data-href="http://127.0.0.1:5500/google.html" ng-class="{'nav__item--active': active == 'http://127.0.0.1:5500/google.html'}"
+                        role="presentation" tabindex="-1" ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_self')">
+                        <a id="partners" href="http://127.0.0.1:5500/google.html" data-gtm-tag="Menu - Partners" tabindex="{[ tabIndexBurgerNav ]}"
+                            btn-ripple class="nav__link " target="_self">
+                            <div>Partners</div>
+                        </a>
+                    </div>
+
+                    <div class="nav__item nav__item--has-dropdown" tabindex="{[ tabIndexBurgerNav ]}"
+                        ng-class="{'nav__item--active': moreIsActive, 'nav__item--open': moreIsOpen }" id="navMore">
+                        <button btn-ripple class="nav__link" ng-click="ctrl.toggleMoreDropdown($event)"
+                            tabindex="{[ tabIndexBurgerNav ]}" aria-label="More">More</button>
+                        <div class="nav__dropdown" ng-style="dropdownStyles">
+                            <div class="nav__dropdown__item" role="presentation" tabindex="-1"
+                                ng-click="ctrl.onLinkClick($event, item.href, item.target)"
+                                ng-repeat="item in moreItems">
+                                <a href="{[ item.href ]}" target="{[ item.target ]}" btn-ripple class="nav__link"
+                                    tabindex="{[ tabIndexBurgerNav ]}"
+                                    ng-class="{'nav__link--external-link': item.target === '_blank'}"
+                                    data-gtm-tag="Menu - {[ item.title ]}">{[ item.text ]}</a>
+                            </div>
+
+
+                            <div class="nav__dropdown__item"
+                                ng-class="{'nav__dropdown__item--active': active == 'http://127.0.0.1:5500/google.html'}"
+                                role="presentation" tabindex="-1"
+                                ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_self')">
+                                <a href="http://127.0.0.1:5500/google.html"
+                                    tabindex="{[ tabIndexBurgerNav ]}" btn-ripple class="nav__link" target="_self"
+                                    data-gtm-tag="Menu - Tools">Tools</a>
+                            </div>
+
+
+
+                            <div class="nav__dropdown__item"
+                                ng-class="{'nav__dropdown__item--active': active == '/'}"
+                                role="presentation" tabindex="-1"
+                                ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_blank')">
+                                <a href="" tabindex="{[ tabIndexBurgerNav ]}" btn-ripple
+                                    class="nav__link nav__link--external-link" target="_blank"
+                                    aria-label="Mobile (opens in new window)" data-gtm-tag="Menu - Mobile">Mobile</a>
+                            </div>
+
+
+
+                            <div class="nav__dropdown__item"
+                                ng-class="{'nav__dropdown__item--active': active == 'http://127.0.0.1:5500/google.html'}"
+                                role="presentation" tabindex="-1"
+                                ng-click="ctrl.onLinkClick($event, 'http://127.0.0.1:5500/google.html', '_self')">
+                                <a href=""
+                                    tabindex="{[ tabIndexBurgerNav ]}" btn-ripple class="nav__link" target="_self"
+                                    data-gtm-tag="Menu - Help &amp; FAQs">Help &amp; FAQs</a>
+                            </div>
+
+
+
+                            <div class="nav__dropdown__item" role="presentation" tabindex="-1">
+                                <span tabindex="{[ tabIndexBurgerNav ]}" btn-ripple class="nav__link"
+                                    aria-label="Feedback" data-gtm-tag="Menu - Feedback" myg-feedback>Feedback</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="nav__cta">
+
+
+                        <a href="http://127.0.0.1:5500/google.html" role="link" btn-ripple
+                            class="nav__link" data-gtm-tag="Menu - SignIn" aria-label="Sign in">Sign in</a>
+
+
+
+                        <a href="http://127.0.0.1:5500/google.html" role="link" btn-ripple
+                            class="nav__link" data-gtm-tag="Menu - Register" aria-label="Register">Register</a>
+
+
+                    </div>
+
+                </div>
+                <hr class="nav__highlight" ng-style="highlightStyles" />
+            </nav>
+
+            <div class="header__cta">
+
+
+                <a href="http://127.0.0.1:5500/google.html"
+                    role="link" btn-ripple class="nav__link" aria-label="Sign in" data-gtm-tag="Sign in">Sign in</a>
+
+
+
+                <a href="http://127.0.0.1:5500/google.html"
+                    role="link" btn-ripple class="nav__link" aria-label="Register" data-gtm-tag="Sign in">Register</a>
+
+
+            </div>
+
+            <div class="header__shadow" role="presentation" tabindex="-1" ng-click="ctrl.toggleNav()"></div>
+        </header>
+
+
+
+
+
+
+       
+
+
+
+
+
+        <script nonce="507db36725dc591c2508b41c04a074d6" type="text/ng-template" id="enroll-confirmation-dialog">
+            <md-dialog class="myg-dialog">
+        <md-dialog-content>
+            <div class="myg-dialog__wrapper-content">
+                <h3 class="myg-dialog__title"></h3>
+                <p class="myg-dialog__content"></p>
+            </div>
+
+            <div class="myg-dialog__wrapper-cta">
+                <button class="btn btn--primary" enroll-link></button>
+                <button ng-click="closeDialog()" class="btn btn--secondary"></button>
+            </div>
+
+        </md-dialog-content>
+    </md-dialog>
+</script>
+    </div>
+
+
+
+
+
+    <script nonce="507db36725dc591c2508b41c04a074d6" type="text/javascript">
+        //Local URLS
+        window.baseUrl = "https://learndigital.withgoogle.com/digitalunlocked";
+
+        //Survey data
+    </script>
+
+
+    <script nonce="507db36725dc591c2508b41c04a074d6" type="text/javascript"
+        src="https://support.google.com/inapp/api.js"></script>
+
+
+    <script nonce="507db36725dc591c2508b41c04a074d6"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script nonce="507db36725dc591c2508b41c04a074d6"
+        src="https://learndigital.withgoogle.com/static/js/vendor.js?cb=019468ba9318b375bac1ea0ea479ec26"></script>
+
+
+
+    <script defer nonce="507db36725dc591c2508b41c04a074d6"
+        src="https://learndigital.withgoogle.com/static/js/courses.js?cb=019468ba9318b375bac1ea0ea479ec26"></script>
+
+</body>
+
+</html>

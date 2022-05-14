@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+table {
+	font-family: 'Lato', Arial, sans-serif;
+	border: 1px solid #dddddd;
+	padding: 15px 10px 50px 10px;
+	margin: 15px;
+	min-width: 400px;
+	width: 29%;
+	display: inline-block;
+	background-color: white;
+	border-radius: 15px;
+}
+
+th {
+	color: #343a40;
+	text-align: right;
+	padding: 15px;
+
+}
+
+td {
+	text-align: left;
+
+	padding: 15px;
+	color: #3c4852;
+	border-bottom: 1px solid #dddddd;
+
+	font-size: 18px;
+}
+
+
+h1 {
+	font-family: 'Lato', Arial, sans-serif;
+	color: #3c4852;
+	font-weight: 700;
+	padding-left: 20px;
+
+
+}
+
+h2 {
+	padding-left: 10px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #3c4852;
+}
+
+h3 {
+	padding-left: 10px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #3c4852;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	line-height: 28px;
+	margin-bottom: 15px;
+	color: #3c4852;
+	font-size: 14px;
+	word-spacing: 1px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: justify;
+	width: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+
+ol li {
+	padding: 10px;
+	font-size: 90%;
+}
+
+
+
+
+
+caption {
+
+	text-align: left;
+	color:#3c4852;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	word-spacing: 2px;
+}
+
+strong {
+	color: #08bd80;
+	font-size: 14px;
+}
+
+b {
+	color:black;
+}
+
+img {
+	border-radius: 50%;
+	margin-right: 10px;
+
+}
+.boxx{
+	
+	border: 1px solid #cacaca;
+}
+.nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 55px;
+	background-color:#ffffff;
+	display: flex;
+	overflow-x: auto;
+	
+	margin-left: -9px;
+  }
+  
+  .nav__link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+	min-width: 50px;
+	overflow: hidden;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #65798b;
+	font-weight: 400;
+	text-decoration: none;
+	transition: background-color 0.1s ease-in-out;
+  }
+  
+  .nav__link:hover {
+	color: black;
+  }
+  
+  .nav__link--active {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+  }
+  
+  .fad {
+	font-size: 25px;
+  }
